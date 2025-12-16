@@ -11,9 +11,10 @@ import os
 INPUT_CASES_JSON = "episodes.json"
 OUTPUT_DATASET = "final_rag_dataset.jsonl"
 NUM_SAMPLES = 249
+API_KEY = None
 
 GEMINI_MODEL = "gemini-2.5-flash"
-client = genai.Client(api_key="AIzaSyBlsZqKE_tnPoce9tQmScqaR-lhQbTwucQ")
+client = genai.Client(api_key=API_KEY)
 
 # util functions
 def clean_case_name(raw):
