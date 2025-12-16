@@ -1,11 +1,10 @@
-# CS6220 LegalRAG: Immigration Legal Chatbot
+# LegalRAG: Immigration Legal Chatbot
 ---
 
 ## Project Overview
 
 **LegalRAG** is a Retrieval-Augmented Generation (RAG) system that provides accessible immigration law assistance by combining real court opinions with US Code statutes in a knowledge graph, powered by LLMs.
 
-- **Course:** CS6220 - Big Data Systems and Analytics
 - **Project Type:** Full-stack RAG application with knowledge graph construction
 
 ---
