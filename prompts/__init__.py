@@ -1,0 +1,1 @@
+from .immigration_prompts import ImmigrationChatbotPrompts
